@@ -6,14 +6,7 @@ Result of the collaboration of: Shalin Shanghavi & Mukul Pathak.
 
 Shalin: https://github.com/sharoo97
 
-
 Mukul: https://github.com/pathakmukul
-
-
-# ipl2019sqlproject
-DATABASE MANAGEMENT PROJECT ON THE INDIAN PREMIER LEAGUE 2019 EDITION
-
-
 
 
 # Introduction
@@ -22,7 +15,7 @@ The Indian Premier League (IPL) is a professional Twenty20 cricket league played
 
 There are eight teams representing eight different regions in India. Each team has a squad of 15-25 players. Out of which 11 players are on field on the match day. To keep it fair, only 4 international players are allowed to play a game from each team. All the teams are either owned by businessmen or movie stars or politicians. With one of the teams owned by richest man in Asia, Mr. Mukesh Ambani of Reliance India Limited. With so much glamour and money in the sports, each team is supported by best in class support staff, analysts and media coverage. 
 
-We will be focusing on the organisational aspect of the tournament considering the number of teams playing, stadiums, players, matches, records and finance. For the sake of the project, we are focusing only on the tournament which was held in 2019. Hence, and all our data is derived from the 2019 edition of the  IPL. We have created this dataset on our own with constant help for records from the official website of the Indian Premier League (www.iplt20.com), CricBuzz.com and Cricbuzz.com. We have focused on every possible detail about this organisation in order to bring out the deep analysis about this famous tournament.
+We will be focusing on the organisational aspect of the tournament considering the number of teams playing, stadiums, players, matches, records and finance. For the sake of the project, we are focusing only on the tournament which was held in 2019. Hence, and all our data is derived from the 2019 edition of the  IPL. We have created this dataset on our own with constant help for records from the official website of the Indian Premier League (www.iplt20.com), cricinfo.com and Cricbuzz.com. We have focused on every possible detail about this organisation in order to bring out the deep analysis about this famous tournament.
 
 
 
