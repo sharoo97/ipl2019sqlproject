@@ -1,4 +1,4 @@
-# ipl2019sqlproject
+# IPL2019
 DATABASE MANAGEMENT PROJECT ON THE INDIAN PREMIER LEAGUE 2019 EDITION
 
 Result of the collaboration of: Shalin Shanghavi & Mukul Pathak.
@@ -9,7 +9,7 @@ Shalin: https://github.com/sharoo97
 Mukul: https://github.com/pathakmukul
 
 
-# Introduction
+## Introduction
 	   
 The Indian Premier League (IPL) is a professional Twenty20 cricket league played in India. It was founded by the Board of Control for Cricket in India(BCCI) in the year 2008. The two and half months long cricketing event happens every year during the summer. With players coming from all over the world, IPL is the most successful premier franchise cricket in the world right now. IPL also holds the record of most viewed sporting event online with 18.6 million concurrent viewers. 
 
@@ -23,11 +23,11 @@ We will be focusing on the organisational aspect of the tournament considering t
 
 
 
-# Entities And Attributes:
+## Entities And Attributes:
 We have a total of 8 entities in our dataset each of which are described below.
 
 
-# TEAMS
+## TEAMS
 
 As mentioned earlier 8 teams compete in this tournament. This entity will capture all the information of the team like the name, location (region they represent), matches_played,etc. 
 A short description of each attribute is added below for better understanding of the dataset.
@@ -43,7 +43,7 @@ Matches_Won: Total number of matches won by each team.
 Ranking: Final standings of each team by the end of the season.
 
 
-# PLAYERS
+## PLAYERS
 
 This entity will capture information about each player like his name, team, age,etc.
 Attributes:
@@ -57,7 +57,7 @@ Bowler: This table captures information about the economy and wickets taken by a
 All- rounder: A cricketer who is a batsmen and a bowler is classified as an all rounder. Hence, this table captures information about runs, strike rate, economy and wickets taken by a cricketer. 
 
 
-# MATCHES
+## MATCHES
 
 This entity will capture all the information about the matches like where they were played, by which team, the date, time, winner, etc.
 Attributes:
@@ -71,7 +71,7 @@ Match_Date: The date on which a particular match was played.
 Match_Time: Afternoon/ Evening match.
 
 
-# STADIUM
+## STADIUM
 
 This entity will capture details of the stadium where the match was played like name, city,etc.
 Attributes:
@@ -81,7 +81,7 @@ Stadium_Matches_Played: Number of matches played in a particular stadium.
 Capacity: The number of people a particular stadium can hold.
 
 
-# SUPPORT_STAFF
+## SUPPORT_STAFF
 
 This entity will capture the information about the details of staff members.
 Attributes:
@@ -91,7 +91,7 @@ Staff_Type: Batting coach, bowling coach, fielding coach, etc.
 Staff_Age: Age of these coaches.
 
 
-# FINANCE
+## FINANCE
 
 This entity  will capture information related to financial records as in the team budget, the price money.
 Attributes:
@@ -101,7 +101,7 @@ Prize_Money – Prize money of each team by the end of the season.
 Team_Budget – Total spending on every player for this season for each team
 
 
-# AUCTION
+## AUCTION
 
 This entity will capture the details of the auctions held like base price, final price, players, teams, etc.
 Attributes:
@@ -114,7 +114,7 @@ Player_category – Capped, Uncapped or International.
 Auction_Status – Sold, Retained, Traded or Transferred
 
 
-# RECORDS
+## RECORDS
 
 This entity will capture the details of records made by players like most number of runs, wickets, fours, sixes etc.
 Attributes
@@ -129,31 +129,28 @@ Most_Sixes – Most sixes by a player
 Most_Catches – Most catches by a player
 
 
-# BUSINESS RULES
+## BUSINESS RULES
 The business rules for our organisation are mentioned below:
-Each team must have no more than one stadium.
-Each stadium must have no more than one home team.
-Each team must have at least three staff for support.
-Each staff member must be assigned to one team.
-Each team must have no more than one finance record.
-Each finance record must be assigned to one team.
-Each team must have many players to play in a match.
-Each player may be in a team to play the tournament.
-Each stadium hosts at least one match in the tournament.
-Each match is played at least once in every stadium.
-Each match is played by many players from a team.
-Each player from a team plays at least one match in the whole tournament.
-Each player is auctioned not more than once.
-Each auction must host no more than one player at a time.
-Each player can have no more than one record during a season.
-Each record can be maintained for a particular player during a season.
+
+- Each team must have no more than one stadium.
+- Each stadium must have no more than one home team.
+- Each team must have at least three staff for support.
+- Each staff member must be assigned to one team.
+- Each team must have no more than one finance record.
+- Each finance record must be assigned to one team.
+- Each team must have many players to play in a match.
+- Each player may be in a team to play the tournament.
+- Each stadium hosts at least one match in the tournament.
+- Each match is played at least once in every stadium.
+- Each match is played by many players from a team.
+- Each player from a team plays at least one match in the whole tournament.
+- Each player is auctioned not more than once.
+- Each auction must host no more than one player at a time.
+- Each player can have no more than one record during a season.
+- Each record can be maintained for a particular player during a season.
 
 
 
-
-
-
-
-CONCLUSION
+## CONCLUSION
 
 We had an amazing experience both in terms of learning and structuring the insights of this popular tournament. It is a sport that always keeps us on our feet to enjoy and it is an entertainment sport that is upcoming. We had a very challenging experience building the dataset from the scratch and gathering every possible detail about this tournament. Gathering minor details from every possible source available was a big task we chose to take but at the same time it was exciting since it is a sport we all love and that interest got us to focus on taking this project. Creating the database was another challenge since this was something we built from the start and getting the database right was important. Changing the structure of the database multiple times to make the relationships feel right was something that took us a lot of time but our interest in this organisation got us to figure out every single complexity. We had to create relational models to understand the details about the database model we created and that got us our solution to the problems. Overall this experience enabled us to get an in depth knowledge of this organisation and a much more insight of how it works every year with these complexities over them. Along with this we definitely got a better understanding of how database models enable people to get a better conceptual knowledge of a particular organisation. After creating models and relationships we feel how easy it is for people to understand the insights of any organisation. We also realised during this project how important it is to structure the model because even a slight arrangement might hamper an individual’s understanding of the model.
